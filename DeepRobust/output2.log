@@ -1,0 +1,265 @@
+nohup: ignoring input
+================== dice [0.1, 0.3] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/utils.py:356: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:605.)
+  return torch.sparse.FloatTensor(sparseconcat.t(),sparsedata,torch.Size(sparse_mx.shape))
+Test set results: loss= 1.0450 accuracy= 0.6825
+ 10%|█         | 1/10 [00:02<00:18,  2.06s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.3967 accuracy= 0.6700
+ 20%|██        | 2/10 [00:03<00:13,  1.65s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.0636 accuracy= 0.6748
+ 30%|███       | 3/10 [00:04<00:10,  1.47s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.3546 accuracy= 0.6712
+ 40%|████      | 4/10 [00:05<00:08,  1.35s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.2770 accuracy= 0.6623
+ 50%|█████     | 5/10 [00:07<00:06,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.0162 accuracy= 0.6759
+ 60%|██████    | 6/10 [00:08<00:05,  1.38s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.0371 accuracy= 0.6801
+ 70%|███████   | 7/10 [00:09<00:04,  1.35s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.0329 accuracy= 0.6783
+ 80%|████████  | 8/10 [00:11<00:02,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.2751 accuracy= 0.6783
+ 90%|█████████ | 9/10 [00:12<00:01,  1.35s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 733
+Test set results: loss= 1.0123 accuracy= 0.6825
+100%|██████████| 10/10 [00:14<00:00,  1.36s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+Final Acc: 0.6756±0.0060
+================== dice [0.1, 0.3] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.2882 accuracy= 0.5575
+ 10%|█         | 1/10 [00:01<00:12,  1.43s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.7199 accuracy= 0.5421
+ 20%|██        | 2/10 [00:02<00:11,  1.45s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.2859 accuracy= 0.5699
+ 30%|███       | 3/10 [00:04<00:09,  1.39s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.7959 accuracy= 0.5243
+ 40%|████      | 4/10 [00:05<00:08,  1.34s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.2866 accuracy= 0.5527
+ 50%|█████     | 5/10 [00:06<00:06,  1.39s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.6197 accuracy= 0.5818
+ 60%|██████    | 6/10 [00:08<00:05,  1.39s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.7669 accuracy= 0.5350
+ 70%|███████   | 7/10 [00:09<00:04,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.6674 accuracy= 0.5610
+ 80%|████████  | 8/10 [00:11<00:02,  1.37s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.7882 accuracy= 0.5758
+ 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+number of pertubations: 2200
+Test set results: loss= 1.2535 accuracy= 0.5675
+100%|██████████| 10/10 [00:13<00:00,  1.41s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]
+Final Acc: 0.5568±0.0175
+================== nettack [1.0, 5.0] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/data/attacked_data.py:140: UserWarning: The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').
+  warnings.warn("The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').")
+Test set results: loss= 0.8545 accuracy= 0.7778
+ 10%|█         | 1/10 [00:01<00:11,  1.23s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.6202 accuracy= 0.7619
+ 20%|██        | 2/10 [00:02<00:10,  1.30s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.9442 accuracy= 0.7937
+ 30%|███       | 3/10 [00:03<00:08,  1.28s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.1015 accuracy= 0.7937
+ 40%|████      | 4/10 [00:05<00:07,  1.27s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.3822 accuracy= 0.7778
+ 50%|█████     | 5/10 [00:06<00:06,  1.31s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.9537 accuracy= 0.7937
+ 60%|██████    | 6/10 [00:08<00:05,  1.39s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.8472 accuracy= 0.7778
+ 70%|███████   | 7/10 [00:09<00:04,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.0168 accuracy= 0.7937
+ 80%|████████  | 8/10 [00:10<00:02,  1.38s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.8452 accuracy= 0.7937
+ 90%|█████████ | 9/10 [00:12<00:01,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.0201 accuracy= 0.7937
+100%|██████████| 10/10 [00:13<00:00,  1.36s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+Final Acc: 0.7857±0.0106
+================== nettack [1.0, 5.0] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.8236 accuracy= 0.5556
+ 10%|█         | 1/10 [00:01<00:12,  1.34s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 1.7684 accuracy= 0.5238
+ 20%|██        | 2/10 [00:02<00:10,  1.27s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 3.0739 accuracy= 0.5079
+ 30%|███       | 3/10 [00:03<00:09,  1.29s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.8586 accuracy= 0.5238
+ 40%|████      | 4/10 [00:05<00:07,  1.32s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 1.4412 accuracy= 0.6190
+ 50%|█████     | 5/10 [00:06<00:06,  1.36s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.8825 accuracy= 0.4444
+ 60%|██████    | 6/10 [00:07<00:05,  1.35s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.9172 accuracy= 0.4762
+ 70%|███████   | 7/10 [00:09<00:03,  1.32s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 3.0527 accuracy= 0.5238
+ 80%|████████  | 8/10 [00:10<00:02,  1.33s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.0215 accuracy= 0.4921
+ 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.5255 accuracy= 0.5714
+100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+Final Acc: 0.5238±0.0471
+================== metattack [0.1, 0.25] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/data/attacked_data.py:135: UserWarning: The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').
+  warnings.warn("The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').")
+Test set results: loss= 1.0923 accuracy= 0.6706
+ 10%|█         | 1/10 [00:01<00:10,  1.18s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0871 accuracy= 0.6706
+ 20%|██        | 2/10 [00:02<00:09,  1.23s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0340 accuracy= 0.6765
+ 30%|███       | 3/10 [00:03<00:09,  1.31s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.1026 accuracy= 0.6712
+ 40%|████      | 4/10 [00:05<00:07,  1.32s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0663 accuracy= 0.6771
+ 50%|█████     | 5/10 [00:06<00:06,  1.31s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0837 accuracy= 0.6724
+ 60%|██████    | 6/10 [00:07<00:05,  1.31s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.1181 accuracy= 0.6451
+ 70%|███████   | 7/10 [00:09<00:03,  1.30s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0609 accuracy= 0.6795
+ 80%|████████  | 8/10 [00:10<00:02,  1.32s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.0787 accuracy= 0.6712
+ 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.1 meta...
+Test set results: loss= 1.1322 accuracy= 0.6558
+100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+Final Acc: 0.6690±0.0100
+================== metattack [0.1, 0.25] ==================
+  0%|          | 0/10 [00:00<?, ?it/s]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.1651 accuracy= 0.5823
+ 10%|█         | 1/10 [00:01<00:11,  1.24s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.2804 accuracy= 0.5782
+ 20%|██        | 2/10 [00:02<00:10,  1.33s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.3250 accuracy= 0.5509
+ 30%|███       | 3/10 [00:03<00:08,  1.28s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.2869 accuracy= 0.5735
+ 40%|████      | 4/10 [00:05<00:07,  1.27s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4005 accuracy= 0.5361
+ 50%|█████     | 5/10 [00:06<00:06,  1.27s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.2776 accuracy= 0.5788
+ 60%|██████    | 6/10 [00:07<00:05,  1.28s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.3484 accuracy= 0.5421
+ 70%|███████   | 7/10 [00:09<00:03,  1.30s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.5021 accuracy= 0.5296
+ 80%|████████  | 8/10 [00:10<00:02,  1.29s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.3932 accuracy= 0.5563
+ 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]Loading citeseer dataset...
+Selecting 1 largest connected components
+Loading citeseer dataset perturbed by 0.25 meta...
+Test set results: loss= 1.2488 accuracy= 0.5723
+100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+Final Acc: 0.5600±0.0185

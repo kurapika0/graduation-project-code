@@ -1,0 +1,337 @@
+nohup: ignoring input
+================== dice [0.1, 0.3] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/utils.py:356: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:605.)
+  return torch.sparse.FloatTensor(sparseconcat.t(),sparsedata,torch.Size(sparse_mx.shape))
+Test set results: loss= 0.6988 accuracy= 0.7867
+
+ 10%|█         | 1/10 [00:04<00:37,  4.22s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.6854 accuracy= 0.7787
+
+ 20%|██        | 2/10 [00:05<00:20,  2.58s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.7215 accuracy= 0.7676
+
+ 30%|███       | 3/10 [00:07<00:14,  2.05s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.6972 accuracy= 0.7787
+
+ 40%|████      | 4/10 [00:08<00:10,  1.82s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.7240 accuracy= 0.7852
+
+ 50%|█████     | 5/10 [00:09<00:08,  1.67s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.7408 accuracy= 0.7726
+
+ 60%|██████    | 6/10 [00:11<00:06,  1.59s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.6933 accuracy= 0.7857
+
+ 70%|███████   | 7/10 [00:12<00:04,  1.57s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.6963 accuracy= 0.7817
+
+ 80%|████████  | 8/10 [00:14<00:02,  1.47s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.6638 accuracy= 0.7862
+
+ 90%|█████████ | 9/10 [00:15<00:01,  1.45s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 1013
+Test set results: loss= 0.7543 accuracy= 0.7691
+
+100%|██████████| 10/10 [00:16<00:00,  1.38s/it]
+100%|██████████| 10/10 [00:16<00:00,  1.68s/it]
+Final Acc: 0.7792±0.0069
+================== dice [0.1, 0.3] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.1350 accuracy= 0.6167
+
+ 10%|█         | 1/10 [00:01<00:12,  1.40s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.2308 accuracy= 0.6127
+
+ 20%|██        | 2/10 [00:02<00:12,  1.51s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.1333 accuracy= 0.6388
+
+ 30%|███       | 3/10 [00:04<00:09,  1.41s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.1406 accuracy= 0.6514
+
+ 40%|████      | 4/10 [00:05<00:08,  1.48s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.0526 accuracy= 0.6398
+
+ 50%|█████     | 5/10 [00:07<00:07,  1.54s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.0480 accuracy= 0.6429
+
+ 60%|██████    | 6/10 [00:08<00:05,  1.48s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.2076 accuracy= 0.6263
+
+ 70%|███████   | 7/10 [00:10<00:04,  1.47s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.1576 accuracy= 0.6328
+
+ 80%|████████  | 8/10 [00:11<00:02,  1.48s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.1124 accuracy= 0.6348
+
+ 90%|█████████ | 9/10 [00:13<00:01,  1.44s/it]Loading cora dataset...
+Selecting 1 largest connected components
+number of pertubations: 3041
+Test set results: loss= 1.0799 accuracy= 0.6358
+
+100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+Final Acc: 0.6332±0.0112
+================== metattack [0.1, 0.25] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/data/attacked_data.py:135: UserWarning: The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').
+  warnings.warn("The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').")
+Test set results: loss= 0.9455 accuracy= 0.7193
+
+ 10%|█         | 1/10 [00:01<00:13,  1.50s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9533 accuracy= 0.7123
+
+ 20%|██        | 2/10 [00:02<00:11,  1.44s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9182 accuracy= 0.7133
+
+ 30%|███       | 3/10 [00:04<00:09,  1.42s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9551 accuracy= 0.7098
+
+ 40%|████      | 4/10 [00:05<00:08,  1.43s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.8738 accuracy= 0.7183
+
+ 50%|█████     | 5/10 [00:07<00:07,  1.50s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9111 accuracy= 0.7128
+
+ 60%|██████    | 6/10 [00:08<00:05,  1.41s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9104 accuracy= 0.7188
+
+ 70%|███████   | 7/10 [00:09<00:04,  1.36s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9609 accuracy= 0.7027
+
+ 80%|████████  | 8/10 [00:11<00:02,  1.37s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.9174 accuracy= 0.6987
+
+ 90%|█████████ | 9/10 [00:12<00:01,  1.29s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.1 meta...
+Test set results: loss= 0.8480 accuracy= 0.7334
+
+100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+Final Acc: 0.7139±0.0091
+================== metattack [0.1, 0.25] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.7563 accuracy= 0.4442
+
+ 10%|█         | 1/10 [00:01<00:10,  1.22s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4355 accuracy= 0.5282
+
+ 20%|██        | 2/10 [00:02<00:10,  1.28s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4583 accuracy= 0.4990
+
+ 30%|███       | 3/10 [00:04<00:09,  1.41s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.5767 accuracy= 0.4874
+
+ 40%|████      | 4/10 [00:05<00:08,  1.35s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4764 accuracy= 0.4920
+
+ 50%|█████     | 5/10 [00:06<00:06,  1.39s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4897 accuracy= 0.4975
+
+ 60%|██████    | 6/10 [00:08<00:05,  1.33s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4870 accuracy= 0.5086
+
+ 70%|███████   | 7/10 [00:09<00:04,  1.35s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4767 accuracy= 0.5091
+
+ 80%|████████  | 8/10 [00:10<00:02,  1.33s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.5013 accuracy= 0.5025
+
+ 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 0.25 meta...
+Test set results: loss= 1.4628 accuracy= 0.5060
+
+100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+Final Acc: 0.4974±0.0207
+================== nettack [1.0, 5.0] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+/data/fusike/conda/anaconda3/envs/gpt/lib/python3.9/site-packages/deeprobust/graph/data/attacked_data.py:140: UserWarning: The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').
+  warnings.warn("The pre-attacked graph is perturbed under the data splits provided by ProGNN. So if you are going to verify the attacking performance, you should use the same data splits  (setting='prognn').")
+Test set results: loss= 1.1842 accuracy= 0.7349
+
+ 10%|█         | 1/10 [00:01<00:12,  1.39s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.8277 accuracy= 0.7952
+
+ 20%|██        | 2/10 [00:02<00:11,  1.41s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.8315 accuracy= 0.7711
+
+ 30%|███       | 3/10 [00:04<00:10,  1.44s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.1397 accuracy= 0.7349
+
+ 40%|████      | 4/10 [00:05<00:08,  1.37s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.0540 accuracy= 0.7470
+
+ 50%|█████     | 5/10 [00:06<00:06,  1.37s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.2893 accuracy= 0.7349
+
+ 60%|██████    | 6/10 [00:08<00:05,  1.35s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.1963 accuracy= 0.7349
+
+ 70%|███████   | 7/10 [00:09<00:04,  1.39s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.9194 accuracy= 0.7470
+
+ 80%|████████  | 8/10 [00:11<00:02,  1.39s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 0.9812 accuracy= 0.7590
+
+ 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 1.0 nettack...
+Test set results: loss= 1.1316 accuracy= 0.7229
+
+100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+Final Acc: 0.7482±0.0205
+================== nettack [1.0, 5.0] ==================
+
+  0%|          | 0/10 [00:00<?, ?it/s]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.2083 accuracy= 0.5783
+
+ 10%|█         | 1/10 [00:01<00:12,  1.41s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.6715 accuracy= 0.5301
+
+ 20%|██        | 2/10 [00:02<00:10,  1.30s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.0546 accuracy= 0.5783
+
+ 30%|███       | 3/10 [00:04<00:09,  1.36s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.1988 accuracy= 0.5301
+
+ 40%|████      | 4/10 [00:05<00:08,  1.40s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.0280 accuracy= 0.5542
+
+ 50%|█████     | 5/10 [00:06<00:06,  1.34s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.3154 accuracy= 0.5422
+
+ 60%|██████    | 6/10 [00:08<00:05,  1.39s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 1.6627 accuracy= 0.6024
+
+ 70%|███████   | 7/10 [00:09<00:04,  1.42s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.2438 accuracy= 0.5181
+
+ 80%|████████  | 8/10 [00:10<00:02,  1.35s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.1725 accuracy= 0.5663
+
+ 90%|█████████ | 9/10 [00:12<00:01,  1.35s/it]Loading cora dataset...
+Selecting 1 largest connected components
+Loading cora dataset perturbed by 5.0 nettack...
+Test set results: loss= 2.2899 accuracy= 0.5422
+
+100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+Final Acc: 0.5542±0.0253

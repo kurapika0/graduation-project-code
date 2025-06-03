@@ -1,0 +1,35 @@
+Attack Method: dice Ptb Rate: 0.1 Poison: True  Final Acc: 0.7849±0.0053
+Attack Method: dice Ptb Rate: 0.1 Poison: False  Final Acc: 0.7967±0.0062
+Attack Method: dice Ptb Rate: 0.3 Poison: False  Final Acc: 0.6899±0.0069
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.7518±0.0210
+Attack Method: nettack Ptb Rate: 5.0 Poison: False  Final Acc: 0.5747±0.0259
+Time: 56.295450925827026s
+Attack Method: dice Ptb Rate: 0.1 Poison: True  Final Acc: 0.6756±0.0060
+Attack Method: dice Ptb Rate: 0.3 Poison: True  Final Acc: 0.5568±0.0175
+Attack Method: nettack Ptb Rate: 1.0 Poison: True  Final Acc: 0.7857±0.0106
+Attack Method: nettack Ptb Rate: 5.0 Poison: True  Final Acc: 0.5238±0.0471
+Attack Method: metattack Ptb Rate: 0.1 Poison: True  Final Acc: 0.6690±0.0100
+Attack Method: metattack Ptb Rate: 0.25 Poison: True  Final Acc: 0.5600±0.0185
+Time: 80.45288419723511s
+Attack Method: dice Ptb Rate: 0.1 Poison: False  Final Acc: 0.6923±0.0085
+Attack Method: dice Ptb Rate: 0.3 Poison: False  Final Acc: 0.6135±0.0069
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.7921±0.0111
+Attack Method: nettack Ptb Rate: 5.0 Poison: False  Final Acc: 0.7190±0.0466
+Time: 54.00888466835022s
+
+Attack Method: dice Ptb Rate: 0.1 Poison: False  Final Acc: 0.7219±0.0077
+Time: 14.82462191581726s
+Attack Method: dice Ptb Rate: 0.1 Poison: False  Final Acc: 0.8324±0.0023
+Time: 12.256389617919922s
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.8108±0.0133
+Time: 78.84772491455078s
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.8000±0.0145
+Time: 85.69630479812622s
+Attack Method: dice Ptb Rate: 1.0 Poison: False  Final Acc: 0.7216±0.0051
+Time: 13.964096546173096s
+Attack Method: dice Ptb Rate: 1.0 Poison: False  Final Acc: 0.8367±0.0032
+Time: 14.956472635269165s
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.7928±0.0240
+Time: 14.806453704833984s
+Attack Method: nettack Ptb Rate: 1.0 Poison: False  Final Acc: 0.8079±0.0180
+Time: 13.737774848937988s
